@@ -150,13 +150,13 @@ Using cast, deployed on testnet example:
 ### Add Favourite Number
 
 ```
-cast send <STORAGE_CONTRACT_ADDRESS> "storeFavouriteNumber(uint256)" FAVOURITE_NUMBER --rpc-url <SEPOLIA_RPC_URL> --private-key <PRIVATE_KEY>
+cast send <STORAGE_CONTRACT_ADDRESS> "storeFavouriteNumber(uint256)" <NUMBER> --rpc-url <SEPOLIA_RPC_URL> --private-key <PRIVATE_KEY>
 ```
 
 ### Add Person
 
 ```
-cast send <STORAGE_CONTRACT_ADDRESS> "addPerson(uint256,string)" FAVOURITE_NUMBER Name --rpc-url <SEPOLIA_RPC_URL> --private-key <PRIVATE_KEY>
+cast send <STORAGE_CONTRACT_ADDRESS> "addPerson(uint256,string)" <NUMBER> <Name> --rpc-url <SEPOLIA_RPC_URL> --private-key <PRIVATE_KEY>
 ```
 
 
