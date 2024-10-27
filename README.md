@@ -138,7 +138,7 @@ Head over to [faucets.chain.link](https://faucets.chain.link/) and get some test
 ### 3. Deploy and Verify
 
 ```
-forge script script/Storage.s.sol --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --verify --etherscan-api-key $ETHERSCAN_API_KEY
+forge script script/Storage.s.sol --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --verify --etherscan-api-key $ETHERSCAN_API_KEY --broadcast
 ```
 
 ## Scripts
@@ -156,7 +156,7 @@ cast send <STORAGE_CONTRACT_ADDRESS> "storeFavouriteNumber(uint256)" <NUMBER> --
 ### Add Person
 
 ```
-cast send <STORAGE_CONTRACT_ADDRESS> "addPerson(uint256,string)" <NUMBER> <Name> --rpc-url <SEPOLIA_RPC_URL> --private-key <PRIVATE_KEY>
+cast send <STORAGE_CONTRACT_ADDRESS> "addPerson(uint256,string)" <NUMBER> <NAME> --rpc-url <SEPOLIA_RPC_URL> --private-key <PRIVATE_KEY>
 ```
 
 
